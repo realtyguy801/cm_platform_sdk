@@ -893,10 +893,10 @@ public final class CMSettings {
          * 0: Display the battery an icon in portrait mode
          * 1: Display the PA Style Solid Battery
          * 2: Display the battery as a circle
-         * 3: Hide the battery status information
-         * 4: Display the battery an icon in landscape mode
-         * 5: Display the battery as plain text
-         * 6: Display the battery as a big circle
+         * 3: Display the battery as a big circle
+         * 4: Hide the battery status information
+         * 5: Display the battery an icon in landscape mode
+         * 6: Display the battery as plain text
          * default: 0
          */
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
