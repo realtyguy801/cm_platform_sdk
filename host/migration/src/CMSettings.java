@@ -80,12 +80,13 @@ public final class CMSettings {
         /**
          * Display style of the status bar battery information
          * 0: Display the battery an icon in portrait mode
-         * 1: Display the battery as a circle
-         * 2: Hide the battery status information
-         * 3: Display the battery an icon in landscape mode
-         * 4: Display the battery as plain text
-         * 5: Display Solid Battery
-         * 6: Display Big Circle
+         * 1: Display Solid Battery
+         * 2: Display the battery as a circle
+         * 3: Display Big Circle
+         * 4: AOSCP
+         * 5: Hide the battery status information
+         * 6: Display the battery an icon in landscape mode
+         * 7: Display the battery as plain text
          * default: 0
          * @hide
          */
