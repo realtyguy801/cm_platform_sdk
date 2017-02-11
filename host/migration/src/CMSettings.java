@@ -84,9 +84,10 @@ public final class CMSettings {
          * 2: Display the battery as a circle
          * 3: Display Big Circle
          * 4: AOSCP
-         * 5: Hide the battery status information
-         * 6: Display the battery an icon in landscape mode
-         * 7: Display the battery as plain text
+         * 5: AICP
+         * 6: Hide the battery status information
+         * 7: Display the battery an icon in landscape mode
+         * 8: Display the battery as plain text
          * default: 0
          * @hide
          */

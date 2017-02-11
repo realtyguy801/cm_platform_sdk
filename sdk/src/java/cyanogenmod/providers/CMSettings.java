@@ -894,16 +894,18 @@ public final class CMSettings {
          * 1: Display the PA Style Solid Battery
          * 2: Display the battery as a circle
          * 3: Display the battery as a big circle
-         * 4: Hide the battery status information
-         * 5: Display the battery an icon in landscape mode
-         * 6: Display the battery as plain text
+         * 4: AOSCP battery style
+         * 5: AICP battery style
+         * 6: Hide the battery status information
+         * 7: Display the battery an icon in landscape mode
+         * 8: Display the battery as plain text
          * default: 0
          */
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
         /** @hide */
         public static final Validator STATUS_BAR_BATTERY_STYLE_VALIDATOR =
-                new DiscreteValueValidator(new String[] {"0", "1", "2", "3", "4", "5", "6", "7"});
+                new DiscreteValueValidator(new String[] {"0", "1", "2", "3", "4", "5", "6", "7", "8"});
 
         /**
          * Status bar battery %
